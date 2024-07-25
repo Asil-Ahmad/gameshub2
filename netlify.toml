@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+  conditions = {Role = ["admin", "cms"]}
+  [redirects.headers]
+    X-From = "Netlify"
+    X-Api-Key = "6318edf22fb84549b1ca50a74582e9ca"
